@@ -1,0 +1,18 @@
+.DS_Store
+node_modules/
+bower_modules/
+
+# Don't bower modules
+Web/bower_components/
+
+# Ignore build files
+SignalRDemo/SignalRDemo/bin/
+SignalRDemo/SignalRDemo/obj/
+
+# Ignore user options
+*.suo
+*.user
+
+# Ignore NuGet packages
+SignalRDemo/packages/
+.vs/
