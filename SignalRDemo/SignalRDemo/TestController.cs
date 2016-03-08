@@ -6,7 +6,7 @@ namespace SignalRDemo
   {
     public string Get()
     {
-      TestHub.Push("WebApi", "Hello World!");
+      GeneratedProxyHub.Push("WebApi", "Hello World!");
       return "Result sent to PayGate and Web";
     }
   }
